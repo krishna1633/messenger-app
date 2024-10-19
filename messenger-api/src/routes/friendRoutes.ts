@@ -1,5 +1,3 @@
-// src/routes/friendRoutes.ts
-
 import { Router } from 'express';
 import { getFriends } from '../controllers/friendController';
 

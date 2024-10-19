@@ -31,7 +31,7 @@ messenger-app/
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/krishna1633/messenger-app
+    git clone https://github.com/krishna1633/messenger
     cd messenger-app
     ```
 

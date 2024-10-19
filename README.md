@@ -52,13 +52,13 @@ messenger-app/
 1. **Start the server:**
     ```sh
     cd server
-    npm start
+    npm run start
     ```
 
 2. **Start the React app:**
     ```sh
     cd ../react-app
-    npm start
+    npm  run start
     ```
 
 3. **Open your browser and navigate to:**
@@ -69,14 +69,14 @@ messenger-app/
 ## Implementation Details
 
 - The server project is a basic Node.js application that serves the React app.
-- The React app is built using functional components and hooks to manage state and side effects.
-- There is no user auth concept. Default user goes and get all usernames saved in backend.
-- User can send message and see history. It cannot recieve a message.
+- The React app uses functional components and hooks to manage state and side effects.
+- There is no user auth concept. The default user goes and get all usernames saved in backend.
+- User can send messages and see history. It cannot receive a message.
 
 ## Future Improvements
 
 - Add persistent storage for chat history.
 - Implement backend communication for real-time updates and data storage.
 - Add auth mechanism like signup/login and jwt token for creating and managing multiple users.
-- Use web-socket to communicate between users.
-- Add options like Friends , Online Friends.
+- Use web socket to communicate between users.
+- Add options like Friends, and Online Friends.
